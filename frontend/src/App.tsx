@@ -3,9 +3,14 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 function Heading() {
-  return <h1>NCAA Basketball Teams</h1>;
-  return <h2>This Website lists out information about all the colleges in NCAA Basketball. You'll find a list below</h2>
+  return (
+    <div>
+      <h1>NCAA Basketball Teams</h1>
+      <h2>Explore information about NCAA basketball teams, including their mascots and locations.</h2>
+    </div>
+  );
 }
+
 
 function TeamCard({ school, mascot, city, state }: { school: string; mascot: string; city: string; state: string }) {
   return (
