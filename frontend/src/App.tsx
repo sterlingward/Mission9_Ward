@@ -4,6 +4,7 @@ import "./App.css";
 
 function Heading() {
   return <h1>NCAA Basketball Teams</h1>;
+  return <h2>This Website lists out information about all the colleges in NCAA Basketball. You'll find a list below</h2>
 }
 
 function TeamCard({ school, mascot, city, state }: { school: string; mascot: string; city: string; state: string }) {
